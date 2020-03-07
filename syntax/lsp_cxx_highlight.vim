@@ -26,11 +26,11 @@ hi default link LspCxxHlSkippedRegionBeginEnd Normal
 if g:lsp_cxx_hl_light_bg
     hi default LspCxxHlGroupEnumConstant ctermfg=Magenta guifg=#573F54 cterm=none gui=none
     hi default LspCxxHlGroupNamespace ctermfg=Yellow guifg=#3D3D00 cterm=none gui=none
-    hi default LspCxxHlGroupMemberVariable ctermfg=Black guifg=Black
+    hi default LspCxxHlGroupMemberVariable ctermfg=18 guifg=#001080
 else
     hi default LspCxxHlGroupEnumConstant ctermfg=Magenta guifg=#AD7FA8 cterm=none gui=none
     hi default LspCxxHlGroupNamespace ctermfg=Yellow guifg=#BBBB00 cterm=none gui=none
-    hi default LspCxxHlGroupMemberVariable ctermfg=White guifg=White
+    hi default LspCxxHlGroupMemberVariable ctermfg=45 guifg=#9cdcfe
 endif
 
 hi default link LspCxxHlSymUnknown Normal
